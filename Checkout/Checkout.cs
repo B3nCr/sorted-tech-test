@@ -6,11 +6,16 @@ namespace Checkout
 {
     public class Checkout
     {
-        
+        private readonly IScanner _itemScanner;
 
-        public Checkout()
+        public Checkout(IScanner itemScanner)
         {
-            
+            _itemScanner = itemScanner;
+        }
+
+        public void ScanItem(Item item)
+        {
+            _itemScanner.Scan(item);
         }
     }
 }
