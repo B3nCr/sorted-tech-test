@@ -6,3 +6,4 @@ missed a few tests cases in `MatchSpecialOfferTests` but added in tests to the b
 
 Time spent: 47 minutes in the morning and 26 minutes in evening; total: 1 hr 13 minutes
 
+Refactor: abstract out special offer inclusive price calculator out of checkout
